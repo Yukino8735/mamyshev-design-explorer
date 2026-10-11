@@ -1,0 +1,16 @@
+{
+  "schema_version": "mamyshev_demo_inference_v1",
+  "model_id": "demo_10k_v1",
+  "files": {
+    "calibration.json": "48799a2dde0cf0c03b7c216b03f4f1418011fdb79a3f7aa308cbbf28ca4873f8",
+    "dependencies.json": "9777a503430f8b5c37587b17ffec3b9c8aeadf7ad43591fa32489e645234c08b",
+    "domain.json": "66802d60ab841a6ca5f7530147c80cbd465936ccef8b82b411f38d7a126ba668",
+    "metrics.json": "68549e3151386270a7965e92e659ea139b6fa1dd3038580e9e1c213935863501",
+    "model.joblib": "9885e8f258fa10de0a69844b70fa72242fcc64267d9db1e6c07dd4bd4609b6d0",
+    "model_card.json": "21c17bff0125f0b2128325f2e452fc5f47e4d937f2ad5cebcdc48b873268d6e0",
+    "models_v4.py": "46f9779b878d195b601930446cce3ec5335f694ef219f28c2ae728a353590b11"
+  },
+  "data_files_included": false,
+  "public_release_status": "blocked_pending_license_and_user_review",
+  "old_release_unchanged": true
+}

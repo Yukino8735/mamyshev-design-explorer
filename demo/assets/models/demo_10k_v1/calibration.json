@@ -1,0 +1,9 @@
+{
+  "n_calibration": 1024,
+  "alpha": 0.05,
+  "rank": 974,
+  "q_joint_log": 0.0030957846673075884,
+  "method": "joint_max_absolute_log_residual",
+  "model_sha256": "9885e8f258fa10de0a69844b70fa72242fcc64267d9db1e6c07dd4bd4609b6d0",
+  "model_id": "demo_10k_v1"
+}

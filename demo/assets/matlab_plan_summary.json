@@ -1,0 +1,21 @@
+{
+  "n_unique_designs": 10000,
+  "plan_hash": "82de9d55aabbb0fcdd5a3657c856f5f5b0f8a411093bdd156063f2d8c7884d9d",
+  "plan_validation_sha256": "be909cbe09fdc276fc9521672981640bc938318dd7d14f2d47b323961e24d157",
+  "all_real_targets_null": true,
+  "max_new_real_attempts": 0,
+  "new_real_attempts": 0,
+  "live_zero_denial_before_reservation": true,
+  "full_10k_GMMNLSE": "not_run",
+  "status": "pending_manual_approval",
+  "plan_storage": "local_only_not_in_public_preview",
+  "functional_scope": [
+    "parameterized plan with exact IDs",
+    "serial per-design persistence",
+    "resume skips completed records",
+    "parent-owned final / explicit failures",
+    "DB / CSV / MAT exports",
+    "no UI live execution route"
+  ],
+  "limits": "Historical full single-point evidence and current plan/component checks do not validate a full 10k live scan."
+}

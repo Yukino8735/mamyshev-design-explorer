@@ -1,0 +1,12 @@
+{
+  "python": "3.11.16",
+  "packages": {
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0",
+    "threadpoolctl": "3.7.0"
+  },
+  "same_existing_environment_only": true,
+  "new_clean_environment_tested": false
+}

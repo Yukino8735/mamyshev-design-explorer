@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.streamlit/secrets.toml
+*.csv
+*.sqlite*
+*.db
+*.jsonl
+*.mat
+*.zip
+*.log
+.env
+.env.*

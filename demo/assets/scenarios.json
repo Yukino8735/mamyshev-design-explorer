@@ -1,0 +1,77 @@
+{
+  "scenario_version": "v3_fixed_before_model_training",
+  "scope": "Same ring family; conditions/objectives vary, not new cavity types.",
+  "scenarios": [
+    {
+      "id": "S1_peak_under_40fs",
+      "candidate_group": "global",
+      "fixed_inputs": {},
+      "input_constraints": {},
+      "objective": {
+        "target": "compressed_peak_power_MW",
+        "direction": "maximize"
+      },
+      "output_constraints": {
+        "compressed_duration_fs": {
+          "lte": 40
+        }
+      }
+    },
+    {
+      "id": "S2_low_pump",
+      "candidate_group": "global",
+      "fixed_inputs": {},
+      "input_constraints": {
+        "pump_power_W": {
+          "lte": 5
+        }
+      },
+      "objective": {
+        "target": "compressed_peak_power_MW",
+        "direction": "maximize"
+      },
+      "output_constraints": {
+        "compressed_duration_fs": {
+          "lte": 40
+        }
+      }
+    },
+    {
+      "id": "S3_fixed_hardware",
+      "candidate_group": "fixed_P4_L4",
+      "fixed_inputs": {
+        "pump_power_W": 4,
+        "gain_length_m": 4
+      },
+      "input_constraints": {},
+      "objective": {
+        "target": "compressed_peak_power_MW",
+        "direction": "maximize"
+      },
+      "output_constraints": {
+        "compressed_duration_fs": {
+          "lte": 40
+        }
+      }
+    },
+    {
+      "id": "S4_short_pulse",
+      "candidate_group": "global",
+      "fixed_inputs": {},
+      "input_constraints": {
+        "pump_power_W": {
+          "lte": 7
+        }
+      },
+      "objective": {
+        "target": "compressed_duration_fs",
+        "direction": "minimize"
+      },
+      "output_constraints": {
+        "compressed_energy_nJ": {
+          "gte": 100
+        }
+      }
+    }
+  ]
+}

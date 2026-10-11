@@ -1,0 +1,15 @@
+{
+  "schema_version": "mamyshev_demo_catalog_v1",
+  "default_model_id": "demo_10k_v1",
+  "models": {
+    "demo_10k_v1": {
+      "directory": "demo_10k_v1",
+      "manifest_sha256": "9908e22c30358d51f0f8993a39da5c2e8fbc76710fbf08213ab7199e1ae9ce7c",
+      "model_sha256": "9885e8f258fa10de0a69844b70fa72242fcc64267d9db1e6c07dd4bd4609b6d0",
+      "n_train": 10000,
+      "display_name": "10k surrogate"
+    }
+  },
+  "public_release_status": "blocked_pending_license_and_user_review",
+  "data_files_included": false
+}

@@ -1,0 +1,405 @@
+{
+  "allowlist_sha256": "7e6a92c87f40cdc5939e39e3cd3aa04c6fc34676bfa877aee501a65cb10fde15",
+  "default_model_id": "demo_10k_v1",
+  "files": [
+    {
+      "bytes": 121,
+      "path": ".gitignore",
+      "sha256": "23d1d4223d9c1db0ff48ba90610e8de3d1585f50488ae1e1a2b380817ce1fee1",
+      "source": "demo/deploy/templates/gitignore.txt",
+      "transform": "public_template"
+    },
+    {
+      "bytes": 68,
+      "path": ".streamlit/config.toml",
+      "sha256": "963c54d6732f16c775f41197f2119e653ff88383a2a2d84673d7e876621af758",
+      "source": "demo/deploy/profile.json",
+      "transform": "public_profile"
+    },
+    {
+      "bytes": 4095,
+      "path": "DEPLOYMENT.md",
+      "sha256": "623c5b7abfc2a7527a756f6e4f6f59640de63452c00021c4d8c5cb54d775edde",
+      "source": "demo/deploy/templates/DEPLOYMENT.md",
+      "transform": "public_template"
+    },
+    {
+      "bytes": 3840,
+      "path": "README.md",
+      "sha256": "ce8257df6eaa9670a899ded53245c551d3dbc1d9210346d672595402de8cd07c",
+      "source": "demo/deploy/templates/README.md",
+      "transform": "public_template"
+    },
+    {
+      "bytes": 2686,
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "054bf20a43fcac87b33b9968de2b4a87aa9b81c61506e65fb86646f92fa41e62",
+      "source": "demo/deploy/templates/THIRD_PARTY_NOTICES.md",
+      "transform": "public_template"
+    },
+    {
+      "bytes": 25524,
+      "path": "checks/presentation_smoke.py",
+      "sha256": "af6a7e7a0150b3e34a9aba2b93b39a84579ea6e456e5c52b49a3f70545cf88cd",
+      "source": "checks/presentation_smoke.py",
+      "transform": "byte_copy"
+    },
+    {
+      "bytes": 29549,
+      "path": "demo/app.py",
+      "sha256": "7f096ce1efa6e36a879a1cf654d3a8be7a9ba147552aad1e62dc3f7c038e6c5d",
+      "source": "demo/app.py",
+      "transform": "byte_copy"
+    },
+    {
+      "bytes": 852,
+      "path": "demo/assets/matlab_plan_summary.json",
+      "sha256": "4e836ff2291c16806aa1c08d8b753015fe7cddfabc503bd7c43da192b4cc05ba",
+      "source": "demo/assets/matlab_plan_summary.json",
+      "transform": "byte_copy"
+    },
+    {
+      "bytes": 515,
+      "path": "demo/assets/models/catalog.json",
+      "sha256": "d49e4171b29d0fa6c39a15968994b9753da42a9d17414ca43ec1e783c00aa78e",
+      "source": "demo/assets/models/catalog.json",
+      "transform": "byte_copy"
+    },
+    {
+      "bytes": 262,
+      "path": "demo/assets/models/demo_10k_v1/calibration.json",
+      "sha256": "48799a2dde0cf0c03b7c216b03f4f1418011fdb79a3f7aa308cbbf28ca4873f8",
+      "source": "demo/assets/models/demo_10k_v1/calibration.json",
+      "transform": "byte_copy"
+    },
+    {
+      "bytes": 256,
+      "path": "demo/assets/models/demo_10k_v1/dependencies.json",
+      "sha256": "9777a503430f8b5c37587b17ffec3b9c8aeadf7ad43591fa32489e645234c08b",
+      "source": "demo/assets/models/demo_10k_v1/dependencies.json",
+      "transform": "byte_copy"
+    },
+    {
+      "bytes": 700,
+      "path": "demo/assets/models/demo_10k_v1/domain.json",
+      "sha256": "66802d60ab841a6ca5f7530147c80cbd465936ccef8b82b411f38d7a126ba668",
+      "source": "demo/assets/models/demo_10k_v1/domain.json",
+      "transform": "byte_copy"
+    },
+    {
+      "bytes": 861,
+      "path": "demo/assets/models/demo_10k_v1/manifest.json",
+      "sha256": "9908e22c30358d51f0f8993a39da5c2e8fbc76710fbf08213ab7199e1ae9ce7c",
+      "source": "demo/assets/models/demo_10k_v1/manifest.json",
+      "transform": "byte_copy"
+    },
+    {
+      "bytes": 77644,
+      "path": "demo/assets/models/demo_10k_v1/metrics.json",
+      "sha256": "68549e3151386270a7965e92e659ea139b6fa1dd3038580e9e1c213935863501",
+      "source": "demo/assets/models/demo_10k_v1/metrics.json",
+      "transform": "byte_copy"
+    },
+    {
+      "bytes": 461433,
+      "path": "demo/assets/models/demo_10k_v1/model.joblib",
+      "sha256": "9885e8f258fa10de0a69844b70fa72242fcc64267d9db1e6c07dd4bd4609b6d0",
+      "source": "demo/assets/models/demo_10k_v1/model.joblib",
+      "transform": "byte_copy"
+    },
+    {
+      "bytes": 2838,
+      "path": "demo/assets/models/demo_10k_v1/model_card.json",
+      "sha256": "21c17bff0125f0b2128325f2e452fc5f47e4d937f2ad5cebcdc48b873268d6e0",
+      "source": "demo/assets/models/demo_10k_v1/model_card.json",
+      "transform": "byte_copy"
+    },
+    {
+      "bytes": 2991,
+      "path": "demo/assets/models/demo_10k_v1/models_v4.py",
+      "sha256": "46f9779b878d195b601930446cce3ec5335f694ef219f28c2ae728a353590b11",
+      "source": "demo/assets/models/demo_10k_v1/models_v4.py",
+      "transform": "byte_copy"
+    },
+    {
+      "bytes": 1741,
+      "path": "demo/assets/scenarios.json",
+      "sha256": "b14b48526a186871cd9826ebf4f5dc09c89a5fda259373766b5ac186c97388eb",
+      "source": "demo/assets/scenarios.json",
+      "transform": "byte_copy"
+    },
+    {
+      "bytes": 1023,
+      "path": "demo/predict.py",
+      "sha256": "b2379d3f046972021f99c9bf6793d8d6979d60b3cdf8db9e09871946b1c83946",
+      "source": "demo/predict.py",
+      "transform": "byte_copy"
+    },
+    {
+      "bytes": 11321,
+      "path": "demo/ui_charts.py",
+      "sha256": "9e905a560b5218408078f8b9a48a89a1104102509930bbc2280d0161bfd86415",
+      "source": "demo/ui_charts.py",
+      "transform": "byte_copy"
+    },
+    {
+      "bytes": 16281,
+      "path": "demo/ui_logic.py",
+      "sha256": "b6a9745aef5b414253436a4bdd8e8fe734dd5d4968e701709c16b58e4a87b82a",
+      "source": "demo/ui_logic.py",
+      "transform": "byte_copy"
+    },
+    {
+      "bytes": 3119,
+      "path": "demo/ui_presentation.py",
+      "sha256": "bac8b6e63974e1b1b0586a33c12be4650b32202da3759ac1a2029917d96d05a2",
+      "source": "demo/ui_presentation.py",
+      "transform": "byte_copy"
+    },
+    {
+      "bytes": 700,
+      "path": "mamyshev_accuracy_v4/configs/domain.json",
+      "sha256": "66802d60ab841a6ca5f7530147c80cbd465936ccef8b82b411f38d7a126ba668",
+      "source": "mamyshev_accuracy_v4/configs/domain.json",
+      "transform": "byte_copy"
+    },
+    {
+      "bytes": 144,
+      "path": "requirements.txt",
+      "sha256": "a86790d4d6f4eb2af967ea412a20ad51a6274184d79609d8f173b557fd4b2b38",
+      "source": "demo/deploy/profile.json",
+      "transform": "public_profile"
+    },
+    {
+      "bytes": 75,
+      "path": "src/mamyshev_ml/__init__.py",
+      "sha256": "743f8ec5587975790330d1d33e4502f25f992c043b92e5dc5233249772656c69",
+      "source": "demo/deploy/templates/package_init.py",
+      "transform": "public_template"
+    },
+    {
+      "bytes": 10143,
+      "path": "src/mamyshev_ml/demo_inference.py",
+      "sha256": "86e68c07c87d6fede870b596f2a4ddd983209d0040b51b3e917232421f7ccffb",
+      "source": "src/mamyshev_ml/demo_inference.py",
+      "transform": "byte_copy"
+    },
+    {
+      "bytes": 1658,
+      "path": "src/mamyshev_ml/v4_evaluators.py",
+      "sha256": "144b73498d7ee90e20ffaf229ca50cd36ecd96364bad2ec727286f7b127902e7",
+      "source": "src/mamyshev_ml/v4_evaluators.py",
+      "transform": "selected_authoritative_ast"
+    },
+    {
+      "bytes": 4513,
+      "path": "src/mamyshev_ml/v4_scan.py",
+      "sha256": "7c9ac779365499b1ccb578dff6160e925e8bc82f5202e56bdc25c556497c97ad",
+      "source": "src/mamyshev_ml/v4_scan.py",
+      "transform": "selected_authoritative_ast"
+    }
+  ],
+  "full_backend_included": false,
+  "manifest_self_hash": "external receipt; not included in its own file list",
+  "model_ids": [
+    "demo_10k_v1"
+  ],
+  "model_sha256": "9885e8f258fa10de0a69844b70fa72242fcc64267d9db1e6c07dd4bd4609b6d0",
+  "profile_sha256": "a0ad7a830a1e4bf837635d0ef94cdb46bc86bc2b4f2efd4e4daa3b26fedf33c9",
+  "profile_version": "single_10k_from_main_001",
+  "publication_approval": "separate_owner_authorization_required_not_granted_by_exporter",
+  "pure_module_checks": {
+    "src/mamyshev_ml/v4_evaluators.py": {
+      "constants": [
+        "ROOT",
+        "PACKAGE",
+        "FEATURES",
+        "TARGETS",
+        "UNITS"
+      ],
+      "functions": [
+        "canonical",
+        "digest",
+        "validate_design",
+        "design_id"
+      ],
+      "global_dependency_check": "passed",
+      "imports": [
+        "hashlib",
+        "json",
+        "math",
+        "pathlib"
+      ],
+      "selected_ast_equal": true
+    },
+    "src/mamyshev_ml/v4_scan.py": {
+      "constants": [
+        "DEFAULT"
+      ],
+      "functions": [
+        "make_plan",
+        "verify_plan"
+      ],
+      "global_dependency_check": "passed",
+      "imports": [
+        ".v4_evaluators",
+        "csv",
+        "itertools",
+        "json",
+        "numpy",
+        "pathlib",
+        "scipy.stats"
+      ],
+      "selected_ast_equal": true
+    }
+  },
+  "python_requested": "3.11",
+  "q_joint_log": 0.0030957846673075884,
+  "schema_version": "mamyshev_main_export_v1",
+  "source_commit": "489bf4242f9b5266d47f8892840a24af66931ff0",
+  "source_dirty": true,
+  "source_files": [
+    {
+      "bytes": 25524,
+      "path": "checks/presentation_smoke.py",
+      "sha256": "af6a7e7a0150b3e34a9aba2b93b39a84579ea6e456e5c52b49a3f70545cf88cd"
+    },
+    {
+      "bytes": 29549,
+      "path": "demo/app.py",
+      "sha256": "7f096ce1efa6e36a879a1cf654d3a8be7a9ba147552aad1e62dc3f7c038e6c5d"
+    },
+    {
+      "bytes": 852,
+      "path": "demo/assets/matlab_plan_summary.json",
+      "sha256": "4e836ff2291c16806aa1c08d8b753015fe7cddfabc503bd7c43da192b4cc05ba"
+    },
+    {
+      "bytes": 515,
+      "path": "demo/assets/models/catalog.json",
+      "sha256": "d49e4171b29d0fa6c39a15968994b9753da42a9d17414ca43ec1e783c00aa78e"
+    },
+    {
+      "bytes": 262,
+      "path": "demo/assets/models/demo_10k_v1/calibration.json",
+      "sha256": "48799a2dde0cf0c03b7c216b03f4f1418011fdb79a3f7aa308cbbf28ca4873f8"
+    },
+    {
+      "bytes": 256,
+      "path": "demo/assets/models/demo_10k_v1/dependencies.json",
+      "sha256": "9777a503430f8b5c37587b17ffec3b9c8aeadf7ad43591fa32489e645234c08b"
+    },
+    {
+      "bytes": 700,
+      "path": "demo/assets/models/demo_10k_v1/domain.json",
+      "sha256": "66802d60ab841a6ca5f7530147c80cbd465936ccef8b82b411f38d7a126ba668"
+    },
+    {
+      "bytes": 861,
+      "path": "demo/assets/models/demo_10k_v1/manifest.json",
+      "sha256": "9908e22c30358d51f0f8993a39da5c2e8fbc76710fbf08213ab7199e1ae9ce7c"
+    },
+    {
+      "bytes": 77644,
+      "path": "demo/assets/models/demo_10k_v1/metrics.json",
+      "sha256": "68549e3151386270a7965e92e659ea139b6fa1dd3038580e9e1c213935863501"
+    },
+    {
+      "bytes": 461433,
+      "path": "demo/assets/models/demo_10k_v1/model.joblib",
+      "sha256": "9885e8f258fa10de0a69844b70fa72242fcc64267d9db1e6c07dd4bd4609b6d0"
+    },
+    {
+      "bytes": 2838,
+      "path": "demo/assets/models/demo_10k_v1/model_card.json",
+      "sha256": "21c17bff0125f0b2128325f2e452fc5f47e4d937f2ad5cebcdc48b873268d6e0"
+    },
+    {
+      "bytes": 2991,
+      "path": "demo/assets/models/demo_10k_v1/models_v4.py",
+      "sha256": "46f9779b878d195b601930446cce3ec5335f694ef219f28c2ae728a353590b11"
+    },
+    {
+      "bytes": 1741,
+      "path": "demo/assets/scenarios.json",
+      "sha256": "b14b48526a186871cd9826ebf4f5dc09c89a5fda259373766b5ac186c97388eb"
+    },
+    {
+      "bytes": 2409,
+      "path": "demo/deploy/profile.json",
+      "sha256": "a0ad7a830a1e4bf837635d0ef94cdb46bc86bc2b4f2efd4e4daa3b26fedf33c9"
+    },
+    {
+      "bytes": 4095,
+      "path": "demo/deploy/templates/DEPLOYMENT.md",
+      "sha256": "623c5b7abfc2a7527a756f6e4f6f59640de63452c00021c4d8c5cb54d775edde"
+    },
+    {
+      "bytes": 3840,
+      "path": "demo/deploy/templates/README.md",
+      "sha256": "ce8257df6eaa9670a899ded53245c551d3dbc1d9210346d672595402de8cd07c"
+    },
+    {
+      "bytes": 2686,
+      "path": "demo/deploy/templates/THIRD_PARTY_NOTICES.md",
+      "sha256": "054bf20a43fcac87b33b9968de2b4a87aa9b81c61506e65fb86646f92fa41e62"
+    },
+    {
+      "bytes": 121,
+      "path": "demo/deploy/templates/gitignore.txt",
+      "sha256": "23d1d4223d9c1db0ff48ba90610e8de3d1585f50488ae1e1a2b380817ce1fee1"
+    },
+    {
+      "bytes": 75,
+      "path": "demo/deploy/templates/package_init.py",
+      "sha256": "743f8ec5587975790330d1d33e4502f25f992c043b92e5dc5233249772656c69"
+    },
+    {
+      "bytes": 1023,
+      "path": "demo/predict.py",
+      "sha256": "b2379d3f046972021f99c9bf6793d8d6979d60b3cdf8db9e09871946b1c83946"
+    },
+    {
+      "bytes": 11321,
+      "path": "demo/ui_charts.py",
+      "sha256": "9e905a560b5218408078f8b9a48a89a1104102509930bbc2280d0161bfd86415"
+    },
+    {
+      "bytes": 16281,
+      "path": "demo/ui_logic.py",
+      "sha256": "b6a9745aef5b414253436a4bdd8e8fe734dd5d4968e701709c16b58e4a87b82a"
+    },
+    {
+      "bytes": 3119,
+      "path": "demo/ui_presentation.py",
+      "sha256": "bac8b6e63974e1b1b0586a33c12be4650b32202da3759ac1a2029917d96d05a2"
+    },
+    {
+      "bytes": 700,
+      "path": "mamyshev_accuracy_v4/configs/domain.json",
+      "sha256": "66802d60ab841a6ca5f7530147c80cbd465936ccef8b82b411f38d7a126ba668"
+    },
+    {
+      "bytes": 16017,
+      "path": "scripts/export_demo.py",
+      "sha256": "11ed59d04a3e46e4217b8f07ccffd48988534e4371eedeb04690fa6ac9b5f834"
+    },
+    {
+      "bytes": 10143,
+      "path": "src/mamyshev_ml/demo_inference.py",
+      "sha256": "86e68c07c87d6fede870b596f2a4ddd983209d0040b51b3e917232421f7ccffb"
+    },
+    {
+      "bytes": 16992,
+      "path": "src/mamyshev_ml/v4_evaluators.py",
+      "sha256": "b3915a764144638edb48ba0bab437cf0e90d648caa0eee4f244c9535e1a13efa"
+    },
+    {
+      "bytes": 17053,
+      "path": "src/mamyshev_ml/v4_scan.py",
+      "sha256": "700384bfcf0ace698b36571e2952ef38340a855c7bac64e5f6da410aea0b4bb4"
+    }
+  ],
+  "source_git_history_copied": false,
+  "training_rows_included": 0
+}

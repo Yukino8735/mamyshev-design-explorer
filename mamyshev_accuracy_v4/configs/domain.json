@@ -1,0 +1,48 @@
+{
+  "domain_id": "expanded_ring_exploratory_v3",
+  "bounds": {
+    "pump_power_W": [
+      2,
+      10
+    ],
+    "filter_offset_nm": [
+      2,
+      16
+    ],
+    "filter2_bw_nm": [
+      0.5,
+      8
+    ],
+    "gain_length_m": [
+      1,
+      8
+    ]
+  },
+  "historical_core": {
+    "pump_power_W": [
+      3,
+      7
+    ],
+    "filter_offset_nm": [
+      4,
+      12
+    ],
+    "filter2_bw_nm": [
+      1,
+      6
+    ],
+    "gain_length_m": [
+      2.5,
+      5.6
+    ]
+  },
+  "gain_length_step_m": 0.1,
+  "status": "proposed_exploration_bounds_not_validated_operating_domain",
+  "fixed_passive_lengths_m": [
+    0.4,
+    1.5,
+    3.2
+  ],
+  "fixed_pigtail_m": 0.2,
+  "sf1_center_nm": 1040
+}

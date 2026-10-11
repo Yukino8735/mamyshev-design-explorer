@@ -1,0 +1,77 @@
+{
+  "model_id": "demo_10k_v1",
+  "n_train": 10000,
+  "n_unique_fit": 10000,
+  "model_sha256": "9885e8f258fa10de0a69844b70fa72242fcc64267d9db1e6c07dd4bd4609b6d0",
+  "available_for_demo": true,
+  "source_kind": "repository_guided_synthetic",
+  "training_target_source": "repository_guided_synthetic",
+  "backend_id": "mamyshev_repository_guided_synthetic_v3",
+  "features": [
+    "pump_power_W",
+    "filter_offset_nm",
+    "filter2_bw_nm",
+    "gain_length_m"
+  ],
+  "targets": [
+    "compressed_energy_nJ",
+    "compressed_duration_fs",
+    "compressed_peak_power_MW"
+  ],
+  "input_units": {
+    "pump_power_W": "W",
+    "filter_offset_nm": "nm",
+    "filter2_bw_nm": "nm",
+    "gain_length_m": "m"
+  },
+  "units": {
+    "compressed_energy_nJ": "nJ",
+    "compressed_duration_fs": "fs",
+    "compressed_peak_power_MW": "MW"
+  },
+  "parameters": {
+    "n_knots": 64,
+    "degree": 3,
+    "knots": "uniform",
+    "interaction_polynomial_degree": 4,
+    "alpha": 0.001,
+    "log_targets": true
+  },
+  "model_family": "spline_interactions",
+  "actual_feature_count": 329,
+  "interval_status": "limited",
+  "interval_safety_guarantee": false,
+  "domain_status": "exploratory_not_validated_GMMNLSE_operating_domain",
+  "physical_state": "undetermined",
+  "numerical_validation": "not_verified",
+  "eligible_as_validated_training_truth": false,
+  "real_solver_generalization": "not_measured",
+  "real_solver_time_savings": "not_measured",
+  "license_status": "pending_review_no_publication_authorized",
+  "hashes_are_integrity_not_security_certification": true,
+  "accuracy_target_met": true,
+  "experiment": "demo_10k_release_001",
+  "formal_fit_attempts": 1,
+  "role_label_counts": {
+    "train": 10000,
+    "development": 1024,
+    "calibration": 1024,
+    "final_test": 2048
+  },
+  "final_test_n": 2048,
+  "training_recipe": "Fresh fixed-stratum synthetic designs; all10000 unique rows in one three-target fit",
+  "provenance": {
+    "protocol_sha256": "f4465c8e41b872373bf49c5bdc07165ac174b84470265b69c98ef83367b2fa04",
+    "training_ids_sha256": "3452da82e7fbeb5d02e15159b5c64ae4435d7619a9a494815bb605cfd8828b4b",
+    "fit_record_sha256": "dd33b02311fcce7bdec1463f022fa36bfb784f8173bbf22a00bbe53dea0db4b1",
+    "final_metrics_sha256": "460074af7a885ee8d7c1bc0ecbc37c952e8872755c623cc97ca3c95e081f0201",
+    "old_ID_exclusion_sha256": "c752c4a69404897b7db62b7e2d18f7c6467e392c6c26bdb119570ad2823570c4",
+    "recipe_sha256": "4cc26ad801213d01554d96846a7d10f5d6d3260c07e099e8df9441c357d4c770"
+  },
+  "reproducibility": {
+    "same_recipe_regeneration": true,
+    "exact_row_reconstruction_from_public_assets": false,
+    "reason": "Local historical ID-only exclusion list is not distributed; digest is retained as provenance"
+  },
+  "comparison_to_1024": "Different freshly sampled test datasets; not a common-holdout sample-size ablation"
+}
